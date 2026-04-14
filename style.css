@@ -21,10 +21,26 @@ h2{
 button{
     width:150px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: rgb(217, 238, 245);
+    /* coloca o botao no centro da tela*/
+    display: block; 
+    margin : auto;
 }
 
 button a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red;
+    color: darkblue;
+    text-decoration: none;
+}
+
+img{ /* COLOCANDO A IMG NO CENTRO DA TELA COM TAMANHO DE 50% DELA */
+    display: block; 
+    margin : auto;
+    width: 50%;
+}
+
+header{
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
