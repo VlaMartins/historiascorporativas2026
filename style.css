@@ -17,3 +17,14 @@ h2{
     text-align : left; 
     color : rgb(23, 42, 23);
 }
+
+button{
+    width:150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
